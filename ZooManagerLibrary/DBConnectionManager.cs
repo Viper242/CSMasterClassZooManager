@@ -13,7 +13,7 @@ namespace ZooManagerLibrary
         private static SqlConnection sqlConnection;
         public static void InitConnection()
         {
-            string connectionString = @"Server=desktop-3OQG4CG\mysqlserver;Database=CSMasterClassDB;User Id=sa;Password=Fem5lingar";
+            string connectionString = @"Server=Server\mysqlserver;Database=CSMasterClassDB;User Id=sa;Password=**********";
             sqlConnection = new SqlConnection(connectionString);
         }
 
